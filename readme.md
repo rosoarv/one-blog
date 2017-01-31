@@ -10,9 +10,12 @@ A single page application blogging platform.
 ## Getting Started
 Before you install make sure you have an Apache server and MySQL running in your PC. Also, you need to have [Laravel](https://laravel.com/docs/5.4) and [Composer](https://getcomposer.org/) installed in your machine.
 
-*Download the files or use the following command to clone the repository to your local system
+Download the files or use the following command to clone the repository to your local system
+
 `git clone https://github.com/rosoarv/one-blog.git projectname`
+
 `cd projectname`
+
 `composer install` 
 
 ## Database Set-up
