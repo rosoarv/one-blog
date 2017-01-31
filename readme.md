@@ -19,7 +19,7 @@ Download the files or use the following command to clone the repository to your 
 `composer install` 
 
 ## Database Set-up
-Create a database and import the sql file under "`./db/one-blog.sql`".
+Create a database and import the sql file under "`./database/oneblog.sql`".
 Update the database environment file `.env.example` with your database connection values and rename the file to `.env`.
 
 ## Firebase Configuration
@@ -45,6 +45,6 @@ To get your firebase configuration, click WEB SETUP and copy only the following
 ```````
 And update the file `./public/js/firebase.config.js` and your done!
 
-To run the application, open command line inside your directory and type `php artisan serve` to start the app on http://localhost:8000/
+To run the application, open command line inside your directory and type `php artisan serve` to start the app on `http://localhost:8000/`
 
 
