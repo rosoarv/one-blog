@@ -49,4 +49,4 @@ And update the file `./public/js/firebase.config.js` and your done!
 
 To run the application, open command line inside your directory and type `php artisan serve` to start the app on `http://localhost:8000/`
 
-To run the random post generator, access `http://localhost:8000/`
+To run the random post generator, access `http://localhost:8000/postgen`
