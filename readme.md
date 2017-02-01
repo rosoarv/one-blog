@@ -2,10 +2,12 @@
 A single page application blogging platform.
 
 ## Features
-* User authentication via Google Sign-in.
-* Post management
+* Google sign-in authentication using [Firebase](https://firebase.google.com).
 * Draft and publish post using Markdown Syntax. 
-* Random Post generation
+* Post Management and Random Post generation using [Lorem Ipsum](http://www.lipsum.com/)
+* Material Design using [MaterializeCSS](http://materializecss.com/)
+
+
 
 ## Getting Started
 Before you install make sure you have an Apache server and MySQL running in your PC. Also, you need to have [Laravel](https://laravel.com/docs/5.4) and [Composer](https://getcomposer.org/) installed in your machine.
@@ -46,3 +48,5 @@ To get your firebase configuration, click WEB SETUP and copy only the following
 And update the file `./public/js/firebase.config.js` and your done!
 
 To run the application, open command line inside your directory and type `php artisan serve` to start the app on `http://localhost:8000/`
+
+To run the random post generator, access `http://localhost:8000/`
