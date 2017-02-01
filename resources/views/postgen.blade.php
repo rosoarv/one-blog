@@ -83,7 +83,6 @@
         <script type="text/javascript" src="{{ URL::asset('js/jquery.min.js') }}"></script>
         <script type="text/javascript" src="{{ URL::asset('css/materialize/js/bin/materialize.min.js') }}"></script>
         <script type="text/javascript" src="{{ URL::asset('plugins/sweet-alert/sweetalert.min.js') }}"></script>
-        <script type="text/javascript" src="{{ URL::asset('js/navigation.js') }}"></script>
         <script type="text/javascript" src="{{ URL::asset('js/postgen.js') }}"></script>
 
     </body>

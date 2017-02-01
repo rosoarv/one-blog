@@ -39,3 +39,5 @@ Route::post('session/set', ['uses' => 'MainController@set_session']);
 Route::get('session/destroy', ['uses' => 'MainController@destroy_session']);
 
 Route::get('postgen',['uses' => 'PostGenerator@index']);
+Route::get('postgen/stats',['uses' => 'PostGenerator@get_stats']);
+Route::post('postgen/create',['uses' => 'PostGenerator@create_post']);

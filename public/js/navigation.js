@@ -61,7 +61,7 @@ var url = 'http://localhost:8000/';
   // Updates dynamic content based on the fragment identifier.
   function navigate(){
 
-    var fragments = ['blog','dashboard','postgen']
+    var fragments = ['blog','dashboard']
     // Isolate the fragment identifier using substr.
     // This gets rid of the "#" character.
     var fragmentId = location.hash.substr(1);
