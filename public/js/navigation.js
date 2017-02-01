@@ -61,17 +61,28 @@ var url = 'http://localhost:8000/';
   // Updates dynamic content based on the fragment identifier.
   function navigate(){
 
+    var fragments = ['blog','dashboard','postgen']
     // Isolate the fragment identifier using substr.
     // This gets rid of the "#" character.
     var fragmentId = location.hash.substr(1);
 
-    // Set the "content" div innerHTML based on the fragment identifier.
-    getContent(fragmentId, function (content) {
-      $("#mainContent").html(content);
-    });
 
-    // Toggle the "active" class on the link currently navigated to.
-    setActiveLink(fragmentId);
+    if($.inArray( fragmentId , fragments ) != -1)
+    {
+      // Set the "content" div innerHTML based on the fragment identifier.
+      getContent(fragmentId, function (content) {
+        $("#mainContent").html(content);
+      });
+
+      // Toggle the "active" class on the link currently navigated to.
+      setActiveLink(fragmentId);
+    }
+    else
+    {
+      alert('page not found!');
+      location.hash = "#blog";
+    }
+
   }
 
   // If no fragment identifier is provided,

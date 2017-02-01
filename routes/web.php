@@ -37,3 +37,5 @@ Route::post('posts/edit/draft', ['uses' => 'PostController@draft_edit']);
 Route::post('session/check', ['uses' => 'MainController@check_session']);
 Route::post('session/set', ['uses' => 'MainController@set_session']);
 Route::get('session/destroy', ['uses' => 'MainController@destroy_session']);
+
+Route::get('postgen',['uses' => 'PostGenerator@index']);

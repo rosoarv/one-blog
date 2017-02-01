@@ -46,5 +46,3 @@ To get your firebase configuration, click WEB SETUP and copy only the following
 And update the file `./public/js/firebase.config.js` and your done!
 
 To run the application, open command line inside your directory and type `php artisan serve` to start the app on `http://localhost:8000/`
-
-
